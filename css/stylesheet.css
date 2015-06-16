@@ -96,6 +96,31 @@ button:hover{
 	width: 500px;
 }
 
+.delete{
+	cursor: pointer;
+	margin-top: 5px;
+	float: left;
+	height: 22px;
+	width: 22px;
+	background: url('../images/x-mark.png');
+}
+
+.alt-delete{
+	background: url('../images/alt-x-mark.png');
+}
+
+.cross-off{
+	cursor: pointer;
+	margin-top: 5px;
+	float: right;
+	height: 22px;
+	width: 22px;
+	background: url('../images/check-mark.png');
+}
+
+.alt-cross-off{
+	background: url('../images/alt-check-mark.png');
+}
 
 #footing{
 	height: 100px;
