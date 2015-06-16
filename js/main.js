@@ -10,5 +10,28 @@ $(document).ready(function () {
 
     getItem();
 
+    function postItem() {
+    	$('.shopping-list').append('<li class="list-item">'+$('#add-items').val()+'</li>');
+
+    	$('#add-items').val("");
+
+    }
+
    
+    function clearList() {
+    	$('.shopping-list').empty();
+
+    }
+
+    $('#clear').click(function (){
+    	clearList();
+    });
+
+   
+
 });
+
+ $('.shopping-list').on('click','li',function() {
+    	$(this).toggleClass("strike");
+
+    });
