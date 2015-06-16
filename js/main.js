@@ -1,11 +1,14 @@
 $(document).ready(function () {
 
-      function getItem() {
+   function getItem() {
         $('#add-items').keydown(function (enter) {
             if (enter.keyCode == 13) {
                 postItem();
             }
         });
+    }
+
+    getItem();
 
    
 });
